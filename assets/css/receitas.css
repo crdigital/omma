@@ -1,0 +1,35 @@
+#receitas {
+    padding: 100px 0; /* padding:top-bottom left-right; */
+    text-align: center;
+  }
+  
+  #receitas h2{
+    color:#FFA000;
+    text-align: left;
+    font-weight: 700;
+    font-size: 55px;
+    margin-bottom: 50px;
+    padding-left: 85px;
+  }
+  
+  #receitas article{
+    display: inline-block;
+    padding: 30px;
+  }
+  
+  #receitas h3{
+    font-size: 26px;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  
+  #receitas a {
+    background-color: #176902;
+    color: #fdfdfd;
+    padding: 10px 20px;
+    margin: 20px 0;
+    display: inline-block; /* pro margin funcionar */
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none; 
+  }

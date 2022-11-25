@@ -1,0 +1,89 @@
+/* alinhando as sections uma ao lado da outra */
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#receita-interna{
+    padding: 80px 0; /* padding:top-bottom left-right; */
+    margin: 50px 100px;
+}
+
+/* propeiedade line-height - coloca espaçamento entre os textos nas tags p e ul */
+#receita-interna p, ul{
+    line-height: 1.5;
+}
+
+#receita-interna article{
+    margin: 30px 0;
+}
+
+#receita-interna h2{
+  color:#FFA000;
+  font-weight: 700;
+  font-size: 55px;
+  margin-bottom: 50px;
+}
+
+#receita-interna .labels{
+    display: flex;
+    align-items: center;
+}
+
+#receita-interna h3 {
+    height: 20px;
+    width: 150px;
+    border: 2px solid #176902;
+    border-radius: 50px 50px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    color: #176902;
+    padding: 10px 10px;  
+    margin: 15px 10px;  
+}
+
+#receita-interna h4{
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+}
+
+#receita-interna p, ul{
+    width: 550px;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+    padding: 25px 0;
+}
+
+/* receitas relacionadas */
+#receitas-relacionadas{
+    padding: 180px 0; padding:top-bottom left-right;
+    margin: 20px 100px;
+}
+
+#receitas-relacionadas article{
+    margin: 60px 0;
+}
+
+#receitas-relacionadas h2{
+    color:#FFA000;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+#receitas-relacionadas h3{
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.box-image{
+    width: 345px;
+    height: 420px;
+    border: 1px solid #c0c0c0; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
